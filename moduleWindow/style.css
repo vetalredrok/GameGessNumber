@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.grandfather{
+    height: 100vh;
+    background: #126e07;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: normal;
+    gap: 5rem
+}
+
+.top-box{
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 15rem;
+    margin-top: 5rem;
+}
+.show-modal{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: white 1px;
+}
+.massage{
+    background: whitesmoke;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.close-modal{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: black 2px solid;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+/*.hidden{*/
+/*    display: none;*/
+/*}*/
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(196, 177, 177, 0.62);
+    z-index: 5;
+}
+.hidden{
+    display: none;
+}

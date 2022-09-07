@@ -73,11 +73,6 @@ if (scoreInt > 1){
     displayMassage('Score: 0', score);
 }
 
-
-
-
-
-
 });
 
 
